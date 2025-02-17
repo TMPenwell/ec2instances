@@ -72,7 +72,7 @@ These recommendations include
 #### Result Classifications
 
 
-9\. ## Classifications
+9\. **Classifications**
 
 **Compute Optimizer categorizes findings into four main classifications:**
 
