@@ -169,7 +169,7 @@ This demo shows no recommendations. Recall this could be due to any of the follo
 - Provisioned IOPS SSD io1, io2, and io2 Block Express
 
 
-Tip: Compute Optimizer also makes recommendation to move data from previous generation volumes (such as HDD Magnetic).
+💡 Tip: Compute Optimizer also makes recommendation to move data from previous generation volumes (such as HDD Magnetic).
 
 
 15\. **Lambda Functions**
