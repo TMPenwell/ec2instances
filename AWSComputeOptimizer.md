@@ -5,21 +5,21 @@ The AWS Cost Optimizer guide offers a valuable resource for businesses looking t
 #### Getting Started
 
 
-1\. To opt-in to this free service, sign in to your AWS account and go to<https://docs.aws.amazon.com/compute-optimizer/latest/ug/account-opt-in.html>
+1\. **To opt-in to this free service, sign in to your AWS account and go to<https://docs.aws.amazon.com/compute-optimizer/latest/ug/account-opt-in.html>**
 
 Click the **Get started** button
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/c55bcbea-a55e-4f6d-aa9a-be281f368b56/ascreenshot.jpeg?tl_px=272,214&br_px=3024,1753&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=644,277)
 
 
-2\. Computer Optimizer creates recommendations for instance types listed in the below table.
+2\. **Computer Optimizer creates recommendations for instance types listed in the below table.**
 
 Please go to <https://docs.aws.amazon.com/compute-optimizer/latest/ug/supported-resources.html#supported-ec2-instances> to find the most update list of supported instance types.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/0ff6451c-0a90-42fe-bc0b-7dfaa2acce33/screenshot.jpeg?tl_px=0,0&br_px=1082,559&force_format=jpeg&q=100&width=1083)
 
 
-Tip: Compute Optimizer does not produce EC2 rightsizing recommendations for Spot Instances.
+💡 Tip: Compute Optimizer does not produce EC2 rightsizing recommendations for Spot Instances.
 
 
 3\. **Costs Related to Compute Optimizer**
@@ -29,33 +29,33 @@ Tip: Compute Optimizer does not produce EC2 rightsizing recommendations for Spot
 - You are required to pay for the compute services that you use and any CloudWatch monitoring fees.
 
 
-4\. Review the information provided as you begin the process to opt-in.
+4\. **Review the information provided as you begin the process to opt-in.**
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/53e02d33-cbfd-4e4b-887b-97b69312fab5/user_cropped_screenshot.jpeg?tl_px=0,0&br_px=3024,1890&force_format=jpeg&q=100&width=1120.0)
 
 
-5\. Compute Optimizer supports the following types of AWS accounts:
+5\. **Compute Optimizer supports the following types of AWS accounts:**
 
 - Standalone accounts, which do not belong to an AWS Organization.
 - Member accounts that are part of an AWS Organization.
 - Managed accounts within an AWS Organization.
 
 
-6\. This demo is using a standalone account, so select **Only this account** 
+6\.** This demo is using a standalone account, so select **Only this account** 
 
 Click **Opt in**
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/58cf77aa-63f9-4978-b7f3-522b782dfcbf/ascreenshot.jpeg?tl_px=0,0&br_px=3024,1890&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=1034,608)
 
 
-7\. AWS Compute Optimizer is a service that operates regionally but it provides a unified console experience for analyzing resources across multiple AWS regions. 
+7\. **AWS Compute Optimizer is a service that operates regionally but it provides a unified console experience for analyzing resources across multiple AWS regions.** 
 
 This is why you will see your region now set to *Global*.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/e2b99784-2f58-4cea-9f91-a9aa9991c8a4/ascreenshot.jpeg?tl_px=272,0&br_px=3024,1538&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=893,80)
 
 
-8\. In the menu on the left side, you see options that provide *Recommendations*. 
+8\. **In the menu on the left side, you see options that provide *Recommendations*.**
 
 These recommendations include 
 
@@ -74,7 +74,7 @@ These recommendations include
 
 9\. ## Classifications
 
-Compute Optimizer categorizes findings into four main classifications:
+**Compute Optimizer categorizes findings into four main classifications:**
 
 ### 1. Under Provisioned
 
@@ -116,7 +116,7 @@ This demo shows no recommendations. Recall this could be due to any of the follo
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/6a595670-7848-43ff-b4b9-bc41f5033709/user_cropped_screenshot.jpeg?tl_px=0,208&br_px=2752,1747&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=43,277)
 
 
-Tip: If an EC2 instance is not listed at <https://docs.aws.amazon.com/compute-optimizer/latest/ug/supported-resources.html#supported-ec2-instances> it is not supported.
+💡 Tip: If an EC2 instance is not listed at <https://docs.aws.amazon.com/compute-optimizer/latest/ug/supported-resources.html#supported-ec2-instances> it is not supported.
 
 
 11\. **EC2 Auto Scaling Groups**
@@ -132,7 +132,7 @@ This demo shows no recommendations. Recall this could be due to any of the follo
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/b2235af4-55bb-4100-949b-9c0d88809433/user_cropped_screenshot.jpeg?tl_px=0,0&br_px=3024,1890&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=37,348)
 
 
-12\. Compute Optimizer creates recommendations for Amazon EC2 Auto Scaling groups. It supports groups Auto Scaling groups that have the following
+12\. **Compute Optimizer creates recommendations for Amazon EC2 Auto Scaling groups. It supports groups Auto Scaling groups that have the following
 
 - Single EC2 instance types
 - Mixed EC2 instance types
@@ -142,7 +142,7 @@ This demo shows no recommendations. Recall this could be due to any of the follo
   - simple scaling
   - step scaling
 - Scheduled scaling policies
-- No scaling policy
+- No scaling policy**
 
 
 13\. **EBS Volumes**
@@ -162,7 +162,7 @@ This demo shows no recommendations. Recall this could be due to any of the follo
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/889e1de4-83af-4fd9-a408-b62ed2a3c1ad/user_cropped_screenshot.jpeg?tl_px=0,0&br_px=3024,1890&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=38,372)
 
 
-14\. Compute Optimizer supports recommendations for the following EBS volume types that are attached to an instance
+14\. **Compute Optimizer supports recommendations for the following EBS volume types that are attached to an instance**
 
 - HDD st1 and sc1
 - General Purpose SSD gp2 and gp3
@@ -198,7 +198,7 @@ This demo shows no recommendations. Recall this could be due to any of the follo
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/1414230b-b95f-4b62-8dbd-7410a5fcc700/user_cropped_screenshot.jpeg?tl_px=0,0&br_px=3024,1890&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=34,415)
 
 
-17\. Compute Optimizer supports recommendations for the following
+17\. **Compute Optimizer supports recommendations for the following**
 
 **Database Engines**
 
@@ -213,12 +213,12 @@ This demo shows no recommendations. Recall this could be due to any of the follo
 - Provisioned IOPS SSD io1
 
 
-18\. The below RDS instance types are supported.  Please refer to <https://docs.aws.amazon.com/compute-optimizer/latest/ug/supported-resources.html#supported-ec2-instances> for the current full list.
+18\. **The below RDS instance types are supported.  Please refer to <https://docs.aws.amazon.com/compute-optimizer/latest/ug/supported-resources.html#supported-ec2-instances> for the current full list.**
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/3b6721c7-8b46-47ae-8e4c-0a73a66d85b4/screenshot.jpeg?tl_px=0,0&br_px=1072,484&force_format=jpeg&q=100)
 
 
-19\. The below Amazon Aurora instance types are supported.  Please refer to <https://docs.aws.amazon.com/compute-optimizer/latest/ug/supported-resources.html#supported-ec2-instances> for the full and current list
+19\. **The below Amazon Aurora instance types are supported.  Please refer to <https://docs.aws.amazon.com/compute-optimizer/latest/ug/supported-resources.html#supported-ec2-instances> for the full and current list**
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/bb609c97-54a9-4e68-b436-c4745bf7791f/screenshot.jpeg?tl_px=0,0&br_px=1072,524&force_format=jpeg&q=100)
 
@@ -236,7 +236,7 @@ This demo shows no recommendations. Recall this could be due to any of the follo
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-02-17/6c3b2526-1aaf-477f-adaa-97bc186b8893/user_cropped_screenshot.jpeg?tl_px=0,351&br_px=2752,1890&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=34,344)
 
 
-21\. When evaluating EC2 instance recommendations, follow this structured approach to ensure optimal performance and cost efficiency:
+21\. **When evaluating EC2 instance recommendations, follow this structured approach to ensure optimal performance and cost efficiency:**
 
 ### Data Analysis
 
